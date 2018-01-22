@@ -5,12 +5,6 @@
         <router-link class="navbar-item" to="/">
           <img src="/static/img/FF-Website-Logo.png" />
         </router-link>
-
-        <button class="button navbar-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
       </div>
 
       <div class="navbar-menu">
@@ -28,5 +22,11 @@
 <style lang="scss">
   .navbar-brand img {
     max-height: 3rem;
+  }
+
+  @media (max-width: 1024px) {
+    .navbar-brand .navbar-item {
+      margin: 0 auto;
+    }
   }
 </style>
