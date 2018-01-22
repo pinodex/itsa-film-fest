@@ -20,7 +20,7 @@
 </template>
 
 <style lang="scss">
-  .navbar-brand img {
+  .navbar-brand .navbar-item img {
     max-height: 3rem;
   }
 
