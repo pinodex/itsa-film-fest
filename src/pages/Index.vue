@@ -63,7 +63,7 @@
     background-color: #082441;
     background-image: url(/static/img/Header-Photo.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
   }
 
   .hero-cartoon-bg {
