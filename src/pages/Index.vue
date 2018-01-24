@@ -34,10 +34,11 @@
               <div class="content">
                 <ol>
                   <li>The film festival is open to all Information Technology students of STI College Novaliches.</li>
+                  <li>Entry should have a movie poster (27x40 inches, or 1944x2880 pixels @ 72 ppi).</li>
                   <li>Entry should run only from 5 to 30 minutes (includes opening and closing credits).</li>
                   <li>Entry should be submitted in HD or SD format.</li>
                   <li>Submission of entry is on March 1, 2018. The method of delivery will be announced before the submission date.</li>
-                  <li>Judges screening is on March 5, 2018. The films will be judged by different faculties from different departments.</li>
+                  <li>Judges screening is on March 5, 2018. The entries will be judged by different faculties from different departments.</li>
                   <li>Public screening and awarding is on March 7, 2018 at the AVR.</li>
                 </ol>
               </div>
@@ -47,7 +48,7 @@
       </div>
     </div>
 
-    <div id="join" class="hero is-fullheight is-light hero-cartoon-bg join-hero">
+    <div id="join" class="hero is-fullheight hero-cartoon-bg join-hero">
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title">Join Now</h1>
@@ -69,6 +70,10 @@
   .hero-cartoon-bg {
     background-repeat: no-repeat;
     background-position: bottom right;
+
+    @media (max-width: 768px) {
+      background-size: 128px;
+    }
 
     &.about-hero {
       background-image: url(/static/img/Slate.png);
@@ -92,8 +97,15 @@
 
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
     color: #555;
+
+    @media (max-width: 1024px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 </style>
 
